@@ -1,0 +1,9 @@
+{
+    "movies": {
+        "download_path": false,
+        "save_path": ""
+    },
+    "tvSeries": {
+        "save_path": ""
+    }
+}

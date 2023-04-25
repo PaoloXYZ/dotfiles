@@ -27,7 +27,7 @@
 /alacritty/*
 !/alacritty/alacritty.yml
 
-!/qBittrorrent
+!/qBittorrent
 
 !/zsh
 /zsh/plugins
