@@ -1,0 +1,34 @@
+# https://medium.com/@lynzt/how-to-gitignore-everything-except-a-few-files-6a8f392e1674
+
+# ignore everything (dirs, files, sub-dirs, sub-files)
+/*
+# but do not ignore the .gitignore file
+!.gitignore
+
+!link.sh
+
+!/i3
+/i3/*
+!/i3/config
+
+!/i3status
+/i3status/*
+!/i3status/config
+
+!/zathura
+/zathura/*
+!/zathura/zathurarc
+
+!/x
+/x/*
+!/x/.xprofile
+
+!/alacritty
+/alacritty/*
+!/alacritty/alacritty.yml
+
+!/qBittrorrent
+
+!/zsh
+/zsh/plugins
+/zsh/.zcompdump
