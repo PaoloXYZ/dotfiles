@@ -28,6 +28,7 @@
 !/alacritty/alacritty.yml
 
 !/qBittorrent
+/qBittorrent/qBittorrent-data.conf
 
 !/zsh
 /zsh/plugins

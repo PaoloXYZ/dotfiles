@@ -33,7 +33,7 @@ battery 1{
 #	status_bat = "☉"
 #	status_full = ""
 	status_full = "☻"
-  low_threshold = 15
+  low_threshold = 10%
 	threshold_type = time
   path = "/sys/class/power_supply/BAT%d/uevent"
 }

@@ -230,6 +230,11 @@ exec --no-startup-id unclutter &
 # turn numLock on on startup
 exec --no-startup-id numlockx on
 
+# notify when battery is getting low 
+# GIT: https://github.com/rjekker/i3-battery-popup
+# AUR: https://aur.archlinux.org/packages/i3-battery-popup-git (git clone this link && makepkg -si)
+exec --no-startup-id i3-battery-popup
+
 # https://gist.github.com/dianjuar/ee774561a8bc02b077989bc17424a19f
 # Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/images/screenshots/$(date).png"
